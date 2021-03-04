@@ -1,0 +1,96 @@
+body {
+  background-image: url("https://www.clubedomalte.com.br/blog/wp-content/uploads/2018/02/Como-escolher-carne-de-qualidade.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+header {
+  background-color: #0008;
+  color: blanchedalmond;
+  padding: 0.8em 15%;
+  text-transform: uppercase;
+  /* padding-bottom: 0; */
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #000a;
+  padding: 0.5em 15%;
+  margin-bottom: 3em;
+  text-align: right;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  color: teal;
+}
+
+nav ul li:hover {
+  color: aquamarine;
+}
+
+section#wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section#main-section {
+  display: inline-block;
+  width: 70%;
+}
+
+aside#sidebar {
+  display: inline-block;
+  width: 22%;
+  vertical-align: top;
+  background-color: azure;
+  padding: 1.5em;
+}
+
+.noticia-thumbnail-frame {
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+  margin-top: 1.15em;
+}
+
+.noticia-thumbnail-image {
+  width: 100%;
+}
+
+.noticia-texto {
+  display: inline-block;
+  width: 75%;
+}
+
+.noticia-texto p {
+  padding: 0 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+article {
+  margin-bottom: 3em;
+  padding: 0.3em 2.5em;
+  background-color: azure;
+}
+
+article a {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-decoration: none;
+}
